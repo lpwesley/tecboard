@@ -16,34 +16,34 @@
 }
 
 /*Reset*/
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 /*Estilo Desktop*/
-body{
-  background-color: #0E1014;
-  color: #FFF;
+body {
+  background-color: #0e1014;
+  color: #fff;
 }
 
-header img{
+header img {
   display: block;
   margin: 75px 0 0 360px;
 }
 
-h1{
+h1 {
   font-family: "Unbounded", sans-serif;
   font-size: 64px;
   text-align: center;
   margin-top: 60px;
 }
 
-h1 span{
-  color: #9747FF;
+h1 span {
+  color: #9747ff;
 }
 
-p{
+p {
   display: block;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
@@ -52,15 +52,15 @@ p{
   width: 792px;
 }
 
-a{
+a {
   display: block;
-  color: #FFF;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   text-decoration: none;
   margin: 40px auto;
 
-  background-color: #9747FF;
+  background-color: #9747ff;
   border-radius: 36px;
   width: 340px;
   height: 66px;
@@ -68,11 +68,11 @@ a{
   line-height: 66px;
 }
 
-a:hover{
-  background-color: #8233E8;
+a:hover {
+  background-color: #8233e8;
 }
 
-section img{
+section img {
   display: block;
   margin: 0 auto;
   width: 792px;
@@ -80,39 +80,64 @@ section img{
 }
 
 /*Estilo Tablet*/
-@media(max-width: 768px){
-  header img{
+@media (max-width: 768px) {
+  header img {
     margin: 65px 0 0 60px;
   }
 
-  p{
+  p {
     width: 648px;
   }
 }
 
 /*Estilo Mobile*/
-@media(max-width: 375px){
-  header omg{
+@media (max-width: 375px) {
+  header omg {
     margin: 32px 0 0 16px;
   }
 
-  h1{
+  h1 {
     font-size: 40px;
   }
 
-  p{
+  p {
     font-size: 20px;
     width: 340px;
   }
 
-  a{
+  a {
     font-size: 20px;
     width: 251px;
   }
 
-  section img{
+  section img {
     width: 340px;
     height: 230px;
   }
 }
 
+/*Estilo Mobile*/
+@media (max-width: 430px) {
+  header omg {
+    margin: 32px 0 0 16px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    width: 340px;
+  }
+
+  a {
+    font-size: 20px;
+    width: 251px;
+  }
+
+  section img {
+    width: 500px;
+    height: 230px;
+  }
+}
