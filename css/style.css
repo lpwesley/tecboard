@@ -95,7 +95,6 @@ section img {
   height: auto;
 }
 
-
 /* ===================================
    TABLET - ATÉ 1024px
 =================================== */
@@ -149,8 +148,8 @@ section img {
   }
 
   section img {
-    width: 90%;
-    max-width: 350px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
   }
 }
@@ -172,4 +171,3 @@ section img {
     max-width: 320px;
   }
 }
-
