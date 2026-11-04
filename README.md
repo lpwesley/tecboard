@@ -1,104 +1,70 @@
-
 # Tecboard
 
-Landing page desenvolvida durante meus estudos de **Desenvolvimento Front-end na Alura**, com foco na construção de interfaces web utilizando HTML5 e CSS3.
+![Projeto guiado](https://img.shields.io/badge/🎓_Projeto-Guiado_(Alura)-9cf?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-O projeto foi criado para praticar a estruturação de páginas, aplicação de estilos, organização de componentes visuais e utilização de boas práticas no desenvolvimento Front-end.
+> **🎓 Projeto guiado:** desenvolvido acompanhando as aulas da formação de **Front-end da [Alura](https://www.alura.com.br/)**. O layout e a proposta são do curso; a implementação foi feita por mim, seguindo o professor.
 
-## 📸 Prévia do projeto
+Landing page de um evento de tecnologia, construída com HTML5 e CSS3 para praticar estruturação semântica, estilização e organização de uma interface a partir de um modelo de referência.
+
+🔗 **[Ver projeto online](https://lpwesley.github.io/tecboard/)**
+
+## 📸 Prévia
 
 ![Prévia da landing page Tecboard](./img/preview-tecboard.png)
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias
 
-- **HTML5:** estruturação semântica da página.
-- **CSS3:** estilização, posicionamento e organização visual.
-- **Git:** controle de versão do projeto.
-- **GitHub Pages:** publicação da página na web.
+- **HTML5:** estrutura semântica da página
+- **CSS3:** estilização, posicionamento e identidade visual
+- **Git e GitHub:** versionamento e uso de branches
+- **GitHub Pages:** publicação
 
-## ⚙️ Características do projeto
+## 📚 O que pratiquei
 
-- Construção de uma landing page com HTML e CSS.
-- Organização do conteúdo em seções.
-- Aplicação de estilos personalizados.
-- Utilização de imagens e recursos gráficos.
-- Configuração de fontes para a identidade visual.
-- Organização dos estilos em arquivos CSS.
-- Implementação de favicon personalizado.
-- Publicação do projeto utilizando GitHub Pages.
+**HTML**
+- Estrutura de página com elementos semânticos e divisão em seções
+- Inserção de imagens, favicon e recursos visuais
 
-## 📚 Aprendizados
+**CSS**
+- Cores, fontes personalizadas e espaçamentos
+- Posicionamento, alinhamento e dimensionamento de imagens
+- Organização dos estilos em arquivos separados
 
-Durante o desenvolvimento do Tecboard, pude colocar em prática conceitos fundamentais para a construção de interfaces web.
+**Fluxo de trabalho**
+- Separação entre estrutura (HTML) e apresentação (CSS)
+- Organização de pastas e arquivos
+- Versionamento com Git, uso de branches e deploy no GitHub Pages
 
-### HTML e estruturação
-
-- Organização da estrutura de uma página HTML.
-- Utilização de elementos semânticos.
-- Estruturação de conteúdos em seções.
-- Inserção de imagens e recursos visuais.
-
-### CSS e estilização
-
-- Aplicação de cores, fontes e espaçamentos.
-- Organização das regras CSS.
-- Posicionamento e alinhamento de elementos.
-- Ajustes de proporção e dimensionamento de imagens.
-- Desenvolvimento de uma interface visual a partir de um modelo de referência.
-
-### Boas práticas
-
-- Separação entre estrutura HTML e apresentação CSS.
-- Organização de pastas e arquivos.
-- Versionamento de código com Git.
-- Utilização de branches durante o desenvolvimento.
-- Publicação e manutenção de projetos no GitHub.
-
-## 📂 Estrutura do projeto
+## 📂 Estrutura
 
 ```text
 tecboard/
 ├── css/
 ├── fonts/
 ├── img/
-│   └── preview.png
-├── index.html
+│   └── preview-tecboard.png
 ├── favicon-tecboard-roxo.svg
+├── index.html
 └── README.md
 ```
 
-## 💻 Como executar localmente
+## 💻 Como executar
 
-O projeto utiliza HTML e CSS, sem necessidade de instalação de dependências.
-
-**1. Clone o repositório:**
+Não há dependências. Basta clonar e abrir no navegador:
 
 ```bash
 git clone https://github.com/lpwesley/tecboard.git
-```
-
-**2. Acesse a pasta do projeto:**
-
-```bash
 cd tecboard
 ```
 
-**3. Execute o projeto:**
-
-Abra o arquivo `index.html` diretamente no navegador ou utilize a extensão **Live Server** no Visual Studio Code.
-
-## 📝 Observações
-
-Este projeto foi desenvolvido para fins educacionais, como parte da prática de desenvolvimento Front-end.
-
-A implementação e os ajustes realizados durante o desenvolvimento contribuem para a consolidação dos conhecimentos em HTML, CSS e organização de interfaces web.
+Abra o `index.html` no navegador ou use a extensão **Live Server** no VS Code.
 
 ## 🎓 Créditos
 
-Projeto desenvolvido com base nos conteúdos da plataforma **[Alura](https://www.alura.com.br/)**.
+Projeto proposto pela **[Alura](https://www.alura.com.br/)** como parte da formação em Front-end. O design e o conteúdo base pertencem ao curso.
 
 ---
 
-Desenvolvido por **Wesley Lauwer**.
-
-[GitHub](https://github.com/lpwesley)
+Desenvolvido por **Wesley Lauwer** · [GitHub](https://github.com/lpwesley)
